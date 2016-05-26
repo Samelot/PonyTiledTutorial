@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="64" tileheight="64" nextobjectid="38">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="64" tileheight="64" nextobjectid="42">
  <tileset firstgid="1" name="bricks" tilewidth="192" tileheight="64" tilecount="106" columns="0">
   <tile id="0">
    <image width="32" height="32" source="toy-bricks/brickBlack01.png"/>
@@ -320,14 +320,34 @@
    <image width="128" height="32" source="toy-bricks/brickYellow16.png"/>
   </tile>
  </tileset>
- <objectgroup name="Object Layer 1">
-  <object id="8" gid="53" x="768" y="576" width="128" height="64"/>
-  <object id="9" gid="53" x="768" y="512" width="128" height="64"/>
-  <object id="10" gid="53" x="832" y="448" width="128" height="64"/>
-  <object id="11" gid="53" x="960" y="448" width="128" height="64"/>
-  <object id="12" gid="53" x="1024" y="512" width="128" height="64"/>
-  <object id="13" gid="53" x="1024" y="576" width="128" height="64"/>
-  <object id="14" gid="42" x="832" y="384" width="128" height="64"/>
-  <object id="15" gid="46" x="960" y="384" width="128" height="64"/>
+ <objectgroup name="Object Layer 1" offsetx="287.884" offsety="-105.378">
+  <object id="17" name="topLeft" gid="57" x="576" y="384" width="128" height="64"/>
+  <object id="18" name="topRight" gid="61" x="960" y="448" width="128" height="64"/>
+  <object id="21" gid="34" x="576" y="448" width="128" height="32">
+   <properties>
+    <property name="alpha" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="22" gid="34" x="704" y="448" width="128" height="32">
+   <properties>
+    <property name="alpha" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="25" gid="38" x="576" y="512" width="128" height="64">
+   <properties>
+    <property name="alpha" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="26" gid="38" x="704" y="512" width="128" height="64">
+   <properties>
+    <property name="alpha" type="float" value="0.5"/>
+   </properties>
+  </object>
+  <object id="27" gid="72" x="704" y="538.51" width="128" height="128" rotation="-45">
+   <properties>
+    <property name="blendMode" value="add"/>
+   </properties>
+  </object>
+  <object id="41" gid="61" x="832" y="448" width="128" height="64"/>
  </objectgroup>
 </map>
